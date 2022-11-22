@@ -51,6 +51,9 @@ public class Palindrome1
             System.out.println("reverse Value is : "+ reverse);
             x /= 10; //  dividend value
             System.out.println("X Value is : "+ x);
+
+            if(y == reverse)
+                break;
         }
 
         return reverse == y;
